@@ -24,13 +24,12 @@ void setup ()
     Serial.begin(9600); 
     Display.setTextSize(1.5);
     Display.setRotation(1);
-    //Display.setTextWrap(false);
-  Display.fillScreen(RGB(255,255,255));
-  Display.println("");
-  Display.println("---------------------");
-  Display.println("***   Ohmmeter   ***");
-  Display.println("---------------------");
-  Display.println("");  
+    Display.fillScreen(RGB(255,255,255));
+    Display.println("");
+    Display.println("---------------------");
+    Display.println("***   Ohmmeter   ***");
+    Display.println("---------------------");
+    Display.println("");  
 }
 
 void loop()
